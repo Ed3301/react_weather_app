@@ -69,7 +69,7 @@ class Tomorrow extends Component {
                             </tbody>
                         </table>
                     </div>
-                    <div className="col-6 google-map-container">
+                    <div className="col-6 p-0 google-map-container">
                         {this.state.city.id &&
                             <GoogleMap city={this.state.city} weather={this.state.weather}/>
                         }
