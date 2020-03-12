@@ -1,0 +1,22 @@
+.main-color {
+    color: darkgray;
+}
+.btn.float-right {
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid darkgray;
+    height: 40px;
+    width: 40px;
+    color: darkgray;
+    margin: 0 20px 0 20px;
+}
+.weather-container {
+    border: 2px solid #ebebeb;
+}
+.temperature {
+    margin-top: 36px;
+    font-size: 30px;
+}
+.info {
+    font-weight: bold;
+}

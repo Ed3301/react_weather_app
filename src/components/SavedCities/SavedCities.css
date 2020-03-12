@@ -1,0 +1,22 @@
+.main-color {
+    color: darkgray;
+}
+.city-boxes .city-item {
+    border: 1px solid #ebebeb;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+.city-item a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: darkgray;
+}
+.city-item a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}

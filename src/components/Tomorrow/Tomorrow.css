@@ -1,0 +1,16 @@
+.main-color {
+    color: darkgray;
+}
+table thead {
+    border-bottom: 2px solid #ebebeb;
+}
+table td, table th {
+    color: darkgray;
+    padding-left: 0 !important;
+}
+.google-map-container {
+    border: 1px solid #ebebeb;
+}
+#map {
+    height: 100%;
+}

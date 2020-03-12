@@ -1,0 +1,15 @@
+.main-color {
+    color: darkgray;
+}
+.week-container .weather-box {
+    border: 2px solid #ebebeb;
+    text-align: center;
+    flex: initial;
+    max-width: 150px;
+}
+.weather-box p {
+    margin-bottom: 0;
+}
+.title {
+    margin-left: 26px;
+}

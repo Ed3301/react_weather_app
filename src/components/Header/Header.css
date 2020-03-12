@@ -1,0 +1,20 @@
+.d-flex {
+    display: flex;
+}
+.nav-item {
+    margin-right: 30px;
+}
+.nav-item a {
+    text-decoration: none;
+    font-size: 23px;
+    color: darkgray;
+}
+.nav-item a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+.list-group-item {
+    z-index: 1;
+    cursor: pointer;
+    width: 100%;
+}
