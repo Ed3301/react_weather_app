@@ -15,7 +15,7 @@ class Today extends Component {
     }
 
     componentDidMount() {
-        EventEmitter.subscribe('weekWeather', async (data) => {
+        EventEmitter.subscribe('weekWeather',  (data) => {
             this.getTodaysWeather(data);
         });
         if(store.getState().userData.weekWeather.list) {

@@ -13,7 +13,7 @@ class Week extends Component {
     }
 
     componentDidMount() {
-        EventEmitter.subscribe('weekWeather', async (data) => {
+        EventEmitter.subscribe('weekWeather',  (data) => {
             this.getWeekWeather(data.list);
         });
         if(store.getState().userData.weekWeather.list) {
